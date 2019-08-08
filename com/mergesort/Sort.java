@@ -1,6 +1,6 @@
 package com.mergesort;
 
-public class Sort {
+public final class Sort {
 
 		static void mergeSort(int[] input, int start, int end ) {
 			 // ends recursion
@@ -32,6 +32,7 @@ public class Sort {
 			}
 			// {32 , 34} , {33 , 36}
 			// {32, 33, 34, 36}
+			
 			
 			System.arraycopy(input, i, input, start + tempIndex, mid - i);
 			System.arraycopy(temp, 0, input, start, tempIndex);
