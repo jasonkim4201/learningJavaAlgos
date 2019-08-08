@@ -24,8 +24,6 @@ public class Main {
 	
 	
 	
-	
-	
 	private static void printArray(int[] array) {
 		for (int number : array) {
 			System.out.print(number + " ");
